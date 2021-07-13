@@ -54,8 +54,6 @@ function createStuff(data) {
   const cellHeight = (height - 2 * padding) / 12;
   const cellWidth = width / Math.floor(data.length / 12);
 
-  // console.log(data);
-
   const yScale = d3
     .scaleLinear()
     .domain([0, 11])
