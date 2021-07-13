@@ -144,4 +144,6 @@ function createStuff(data) {
     .attr('width', legendRectWidth)
     .attr('height', legendHeight)
     .attr('fill', (c) => c);
+
+  console.log(legend);
 }
